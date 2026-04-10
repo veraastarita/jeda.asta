@@ -193,20 +193,46 @@ p {
 @media (max-width: 768px) {
 
     body {
-        font-size: 16px;
+        font-size: 18px;
+    }
+
+    .container-navbar {
+        height: 80px;
     }
 
     .li-navbar {
-        padding: 14px;
-        font-size: 15px;
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .a-navbar {
+        font-size: 16px;
+    }
+
+    .img-content {
+        width: 90%;
+    }
+
+    .container-footer {
+        padding: 18px;
+        margin: 15px;
     }
 
     .h1-footer {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     p {
-        font-size: 17px;
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
+    .judul-cerpen {
+        font-size: 18px;
+    }
+
+    .img-card {
+        width: 120px;
     }
 
 }
