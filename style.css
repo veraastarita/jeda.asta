@@ -189,3 +189,24 @@ p {
 .container-footer-home h1 {
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .li-navbar {
+        padding: 14px;
+        font-size: 15px;
+    }
+
+    .h1-footer {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+}
