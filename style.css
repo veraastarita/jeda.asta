@@ -1,0 +1,191 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Times New Roman';
+}
+
+/* NAVBAR */
+.container-navbar {
+    background-color: #e9e9e9;
+    border-bottom: 1px solid #bfbfbf;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid #bfbfbf;
+    border-radius: 8px;
+}
+
+.li-navbar:hover {
+    background-color: #cccdd1;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.a-navbar {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* CONTENT (gambar atas) */
+.container-content {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img-content {
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* KOTAK CERPEN */
+.container-footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* JUDUL */
+.h1-footer {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+/* AUTHOR */
+.author {
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+    color: #777;
+    font-size: 14px;
+}
+
+/* PARAGRAF */
+p {
+    text-indent: 40px;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #333;
+}
+
+/* DIALOG */
+.dialog {
+    text-indent: 0;
+    margin-left: 40px;
+}
+
+.kembali-bawah {
+    max-width: 800px;
+    margin: 10px auto 40px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kembali-bawah a {
+    background-color: #e9e9e9;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+}
+
+/* CARD CERPEN */
+.card-cerpen {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.card-cerpen:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.card-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.img-card {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.judul-cerpen {
+    text-decoration: none;
+    color: #2c5aa0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.judul-cerpen:hover {
+    text-decoration: underline;
+    color: #1d3f73;
+}
+
+/* KHUSUS HALAMAN HOME */
+.container-content-home {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-footer-home {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.tidak-menjorok {
+    text-indent: 0;
+}
+
+.container-footer-home h1 {
+    margin-bottom: 20px;
+}
