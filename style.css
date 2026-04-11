@@ -78,10 +78,6 @@ body {
     margin-bottom: 15px;
 }
 
-.container-footer h1 {
-    margin-bottom: 15px;
-}
-
 /* AUTHOR */
 .author {
     text-align: center;
@@ -135,7 +131,7 @@ p {
 /* CARD */
 .card-flex {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -147,6 +143,9 @@ p {
 .card-text {
     display: flex;
     flex-direction: column;
+}
+
+.card-text h2 {
     margin: 0;
 }
 
@@ -176,9 +175,8 @@ p {
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-/* FIX JUDUL ABOUT */
 .container-footer-home h1 {
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
@@ -204,9 +202,4 @@ p {
         font-size: 22px;
     }
 
-}
-
-.container-footer-home h1 {
-    padding-top: 15px;
-    margin-bottom: 20px;
 }
