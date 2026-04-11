@@ -149,20 +149,21 @@ p {
 
 /* HOME */
 .container-content-home {
+    background-color: transparent;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
-    flex-direction: column;
-    padding: 20px;
 }
 
-container-footer-home { 
-    background-color: #ffffff; 
-    display: flex; flex-direction: column; 
-    padding: 25px; 
-    max-width: 800px; 
-    margin: 30px auto; 
-    border-radius: 8px; 
+.container-footer-home {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
     border: 1px solid #e5e5e5;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
