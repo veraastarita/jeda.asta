@@ -80,6 +80,10 @@ body {
     margin-bottom: 15px;
 }
 
+.container-footer h1 {
+    margin-bottom: 15px;
+}
+
 /* AUTHOR */
 .author {
     text-align: center;
