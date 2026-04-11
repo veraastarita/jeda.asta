@@ -191,13 +191,13 @@ p {
     margin-bottom: 20px;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
 
     body {
         font-size: 15px;
     }
 
+    /* NAVBAR */
     .container-navbar {
         height: 70px;
     }
@@ -211,6 +211,7 @@ p {
         font-size: 13px;
     }
 
+    /* COVER */
     .img-content {
         width: 70%;
     }
@@ -219,6 +220,7 @@ p {
         margin-top: 20px;
     }
 
+    /* CARD */
     .container-footer,
     .container-footer-home {
         max-width: 92%;
@@ -235,19 +237,26 @@ p {
         flex-shrink: 0;
     }
 
+    /* TEXT UMUM (NAIK SEDIKIT BIAR GA KONTRAS) */
     p {
-        font-size: 15px;
-        line-height: 1.8;
+        font-size: 16.5px;
+        line-height: 1.9;
         text-indent: 25px;
     }
 
-    /* CERITA LEBIH BESAR */
-    .container-footer p {
-        font-size: 19px;
-        line-height: 2.1;
-        text-indent: 30px;
+    /* KHUSUS CARD */
+    .card-text p {
+        font-size: 16.5px;
     }
 
+    /* CERITA (TETAP LEBIH BESAR) */
+    .container-footer p {
+        font-size: 20px;
+        line-height: 2.2;
+        text-indent: 28px;
+    }
+
+    /* JUDUL */
     .judul-cerpen {
         font-size: 16px;
     }
@@ -256,10 +265,12 @@ p {
         font-size: 24px;
     }
 
+    /* AUTHOR */
     .author {
         font-size: 13px;
     }
 
+    /* BUTTON */
     .kembali-bawah a {
         padding: 8px 14px;
         font-size: 12px;
