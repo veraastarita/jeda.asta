@@ -197,75 +197,23 @@ p {
         font-size: 14px;
     }
 
-    /* NAVBAR */
-    .container-navbar {
-        height: 70px;
-    }
-
-    .ul-navbar {
-        height: 70px;
-    }
-
-    .li-navbar {
-        padding: 8px 12px;
-        font-size: 12px;
-    }
-
-    /* COVER */
-    .img-content {
-        width: 70%;
-    }
-
-    .container-content {
-        margin-top: 20px;
-    }
-
-    /* CARD */
-    .container-footer,
-    .container-footer-home {
-        max-width: 92%;
-        margin: 20px auto;
-        padding: 14px;
-    }
-
-    .card-flex {
-        gap: 8px;
-    }
-
-    .img-card {
-        width: 85px;
-        flex-shrink: 0;
-    }
-
-    /* 🔻 HOME (diperkecil) */
-    .card-text p {
+    /* SEMUA TEXT DIPERKECIL DULU */
+    p {
         font-size: 14px;
         line-height: 1.7;
         text-indent: 0;
     }
 
-    .judul-cerpen {
-        font-size: 15px;
+    /* KHUSUS CARD */
+    .card-text p {
+        font-size: 14px;
     }
 
-    /* 🔺 CERITA (dibesarkan) */
+    /* CERITA DIBESARIN BANGET */
     .container-footer p {
-        font-size: 20px;
-        line-height: 2.2;
+        font-size: 21px;
+        line-height: 2.3;
         text-indent: 30px;
     }
 
-    .h1-footer {
-        font-size: 25px;
-    }
-
-    .author {
-        font-size: 13px;
-    }
-
-    /* BUTTON */
-    .kembali-bawah a {
-        padding: 8px 14px;
-        font-size: 12px;
-    }
 }
