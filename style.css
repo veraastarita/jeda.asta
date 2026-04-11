@@ -190,36 +190,24 @@ p {
     margin-bottom: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     body {
-        font-size: 19px;
+        font-size: 20px;
     }
 
-    .container-navbar {
-        height: 90px;
-    }
-
-    .li-navbar {
-        padding: 14px 18px;
-        font-size: 17px;
-    }
-
-    .a-navbar {
-        font-size: 17px;
-    }
-
-    .img-content {
-        width: 95%;
-    }
-
-    .container-footer {
+    .container-content-home {
         padding: 20px;
-        margin: 12px;
     }
 
-    .h1-footer {
-        font-size: 28px;
+    .container-footer-home {
+        max-width: 100%;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .img-card {
+        width: 130px;
     }
 
     p {
@@ -228,15 +216,6 @@ p {
     }
 
     .judul-cerpen {
-        font-size: 19px;
+        font-size: 20px;
     }
-
-    .img-card {
-        width: 130px;
-    }
-}
-    .img-card {
-        width: 120px;
-    }
-
 }
