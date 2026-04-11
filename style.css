@@ -44,7 +44,7 @@ body {
     color: #333333;
 }
 
-/* CONTENT (gambar atas) */
+/* CONTENT */
 .container-content {
     background-color: transparent;
     display: flex;
@@ -121,7 +121,7 @@ p {
     border: 1px solid #e5e5e5;
 }
 
-/* CARD CERPEN */
+/* CARD */
 .card-cerpen {
     text-decoration: none;
     color: black;
@@ -161,7 +161,7 @@ p {
     color: #1d3f73;
 }
 
-/* KHUSUS HALAMAN HOME */
+/* HOME */
 .container-content-home {
     background-color: transparent;
     display: flex;
@@ -191,13 +191,13 @@ p {
     margin-bottom: 20px;
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
 
     body {
         font-size: 15px;
     }
 
-    /* NAVBAR jadi lebih kecil */
     .container-navbar {
         height: 70px;
     }
@@ -211,16 +211,14 @@ p {
         font-size: 13px;
     }
 
-    /* COVER GAMBAR */
     .img-content {
-        width: 70%;  /* biar tidak terlalu kecil / besar */
+        width: 70%;
     }
 
     .container-content {
         margin-top: 20px;
     }
 
-    /* CARD CERPEN */
     .container-footer,
     .container-footer-home {
         max-width: 92%;
@@ -228,7 +226,6 @@ p {
         padding: 15px;
     }
 
-    /* FLEX CARD */
     .card-flex {
         gap: 10px;
     }
@@ -238,11 +235,17 @@ p {
         flex-shrink: 0;
     }
 
-    /* TEXT */
     p {
         font-size: 15px;
         line-height: 1.8;
         text-indent: 25px;
+    }
+
+    /* CERITA LEBIH BESAR */
+    .container-footer p {
+        font-size: 19px;
+        line-height: 2.1;
+        text-indent: 30px;
     }
 
     .judul-cerpen {
@@ -250,14 +253,13 @@ p {
     }
 
     .h1-footer {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .author {
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    /* BUTTON KEMBALI */
     .kembali-bawah a {
         padding: 8px 14px;
         font-size: 12px;
