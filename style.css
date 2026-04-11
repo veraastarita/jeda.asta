@@ -175,21 +175,23 @@ p {
 @media (max-width: 768px) {
 
     .container-navbar {
-        height: 70px;
+        height: 60px;
     }
 
     .ul-navbar {
-        height: 70px;
+        height: 60px;
     }
 
     .li-navbar {
-        padding: 8px 12px;
+        padding: 6px 10px;
         font-size: 12px;
     }
 
-/* KHUSUS ISI CERPEN */
-.container-footer p {
-    font-size: 19px;
-    line-height: 2;
-    text-indent: 40px;
+    /* ISI CERPEN (NORMAL) */
+    .container-footer p {
+        font-size: 16.5px;
+        line-height: 1.9;
+        text-indent: 28px;
+    }
+
 }
