@@ -88,14 +88,21 @@ body {
     font-size: 14px;
 }
 
-/* PARAGRAF */
+/* DEFAULT TEXT (HOME & ABOUT) */
 p {
-    text-indent: 40px;
+    text-indent: 0;
     text-align: justify;
     margin-bottom: 15px;
-    line-height: 1.8;
-    font-size: 18px;
+    line-height: 1.7;
+    font-size: 16px;
     color: #333;
+}
+
+/* KHUSUS ISI CERPEN (DESKTOP) */
+.container-footer p {
+    font-size: 19px;
+    line-height: 2;
+    text-indent: 40px;
 }
 
 /* DIALOG */
@@ -104,6 +111,7 @@ p {
     margin-left: 40px;
 }
 
+/* BUTTON */
 .kembali-bawah {
     max-width: 800px;
     margin: 10px auto 40px auto;
@@ -122,17 +130,6 @@ p {
 }
 
 /* CARD */
-.card-cerpen {
-    text-decoration: none;
-    color: black;
-    display: block;
-}
-
-.card-cerpen:hover {
-    transform: scale(1.01);
-    transition: 0.2s;
-}
-
 .card-flex {
     display: flex;
     align-items: flex-start;
@@ -156,14 +153,8 @@ p {
     font-size: 18px;
 }
 
-.judul-cerpen:hover {
-    text-decoration: underline;
-    color: #1d3f73;
-}
-
 /* HOME */
 .container-content-home {
-    background-color: transparent;
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -173,8 +164,6 @@ p {
 
 .container-footer-home {
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
     padding: 25px;
     max-width: 800px;
     margin: 30px auto;
@@ -183,37 +172,33 @@ p {
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-.tidak-menjorok {
-    text-indent: 0;
-}
-
-.container-footer-home h1 {
-    margin-bottom: 20px;
-}
-
+/* MOBILE */
 @media (max-width: 768px) {
 
-    body {
-        font-size: 14px;
-    }
-
-    /* SEMUA TEXT DIPERKECIL DULU */
+    /* HOME & ABOUT → kecil */
     p {
         font-size: 14px;
         line-height: 1.7;
         text-indent: 0;
     }
 
-    /* KHUSUS CARD */
     .card-text p {
         font-size: 14px;
     }
 
-    /* CERITA DIBESARIN BANGET */
+    .judul-cerpen {
+        font-size: 15px;
+    }
+
+    /* CERITA → BESAR */
     .container-footer p {
         font-size: 21px;
         line-height: 2.3;
         text-indent: 30px;
+    }
+
+    .h1-footer {
+        font-size: 24px;
     }
 
 }
