@@ -8,7 +8,7 @@ body {
     font-family: 'Times New Roman';
 }
 
-/* NAVBAR */
+/* NAVBAR (BALIK NORMAL) */
 .container-navbar {
     background-color: #e9e9e9;
     border-bottom: 1px solid #bfbfbf;
@@ -33,97 +33,46 @@ body {
     border-radius: 8px;
 }
 
-.li-navbar:hover {
-    background-color: #cccdd1;
-    border-radius: 6px;
-    transition: 0.2s;
-}
-
 .a-navbar {
     text-decoration: none;
     color: #333333;
 }
 
-/* CONTENT */
-.container-content {
+/* HOME TITLE */
+.container-content-home {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 30px;
+    flex-direction: column;
 }
 
-.img-content {
-    width: 30%;
-    border-radius: 8px;
+/* judul jeda.asta */
+.container-content-home h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
-/* KOTAK CERPEN */
-.container-footer {
+/* deskripsi */
+.container-content-home p {
+    font-size: 18px;
+    text-indent: 0;
+    margin-bottom: 20px;
+}
+
+/* CARD HOME */
+.container-footer-home {
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
     padding: 25px;
     max-width: 800px;
-    margin: 30px auto;
+    margin: 20px auto;
     border-radius: 8px;
     border: 1px solid #e5e5e5;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-/* JUDUL */
-.h1-footer {
-    text-align: center;
-    font-size: 30px;
-}
-
-/* AUTHOR */
-.author {
-    text-align: center;
-    font-style: italic;
-    color: #777;
-    font-size: 14px;
-}
-
-/* DEFAULT (HOME & ABOUT NORMAL) */
-p {
-    text-indent: 0;
-    text-align: justify;
-    margin-bottom: 15px;
-    line-height: 1.8;
-    font-size: 18px;
-    color: #333;
-}
-
-/* KHUSUS CERPEN */
-.container-footer p {
-    font-size: 16px;
-    line-height: 1.8;
-    text-indent: 35px;
-}
-
-/* DIALOG */
-.dialog {
-    text-indent: 0;
-    margin-left: 40px;
-}
-
-/* BUTTON */
-.kembali-bawah {
-    max-width: 800px;
-    margin: 10px auto 40px auto;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.kembali-bawah a {
-    background-color: #e9e9e9;
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 14px;
-    border: 1px solid #e5e5e5;
-}
-
-/* CARD */
+/* CARD LAYOUT */
 .card-flex {
     display: flex;
     align-items: flex-start;
@@ -140,85 +89,63 @@ p {
     flex-direction: column;
 }
 
+/* JUDUL CERPEN */
 .judul-cerpen {
     text-decoration: none;
     color: #2c5aa0;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .judul-cerpen:hover {
     text-decoration: underline;
-    color: #1d3f73;
 }
 
-/* HOME */
-.container-content-home {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    flex-direction: column;
-}
-
-.container-footer-home {
-    background-color: #ffffff;
-    padding: 25px;
-    max-width: 800px;
-    margin: 30px auto;
-    border-radius: 8px;
-    border: 1px solid #e5e5e5;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-.tidak-menjorok {
+/* ISI CARD */
+.card-text p {
+    font-size: 18px;
+    line-height: 1.8;
     text-indent: 0;
 }
 
-/* MOBILE FIX */
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
-    /* NAVBAR lebih kecil */
     .container-navbar {
-        height: 70px;
+        height: 80px;
     }
 
     .ul-navbar {
-        height: 70px;
+        height: 80px;
     }
 
     .li-navbar {
-        padding: 10px 14px;
-        font-size: 13px;
+        padding: 12px 16px;
+        font-size: 14px;
     }
 
-    /* BOX */
-    .container-footer,
+    .container-content-home h1 {
+        font-size: 28px;
+    }
+
+    .container-content-home p {
+        font-size: 16px;
+    }
+
     .container-footer-home {
         max-width: 92%;
-        margin: 20px auto;
-        padding: 16px;
+        padding: 18px;
     }
 
-    /* CARD */
     .img-card {
-        width: 100px;
+        width: 110px;
     }
 
-    /* HOME & ABOUT (tetep normal, ga gede banget) */
-    p {
+    .judul-cerpen {
+        font-size: 18px;
+    }
+
+    .card-text p {
         font-size: 16px;
-        line-height: 1.8;
     }
-
-    /* CERPEN (lebih nyaman dibaca HP) */
-    .container-footer p {
-        font-size: 15px;
-        line-height: 1.75;
-        text-indent: 22px;
-    }
-
-    .h1-footer {
-        font-size: 24px;
-    }
-
 }
