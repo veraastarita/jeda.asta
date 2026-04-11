@@ -46,7 +46,6 @@ body {
 
 /* CONTENT */
 .container-content {
-    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,12 +57,11 @@ body {
     border-radius: 8px;
 }
 
-/* KOTAK CERPEN */
+/* CERPEN BOX */
 .container-footer {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 25px;
     max-width: 800px;
     margin: 30px auto;
@@ -93,7 +91,7 @@ body {
     font-size: 14px;
 }
 
-/* DEFAULT (HOME & ABOUT) */
+/* TEXT DEFAULT */
 p {
     text-indent: 0;
     text-align: justify;
@@ -103,7 +101,7 @@ p {
     color: #333;
 }
 
-/* KHUSUS ISI CERPEN (DESKTOP - NORMAL) */
+/* CERPEN TEXT */
 .container-footer p {
     font-size: 16px;
     line-height: 1.8;
@@ -158,11 +156,11 @@ p {
     font-size: 18px;
 }
 
-/* HOME */
+/* HOME & ABOUT */
 .container-content-home {
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
     flex-direction: column;
     padding: 20px;
 }
@@ -175,26 +173,26 @@ p {
     border-radius: 8px;
     border: 1px solid #e5e5e5;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* FIX JUDUL ABOUT */
+.container-footer-home h1 {
     margin-top: 10px;
     margin-bottom: 20px;
-}
 }
 
 /* MOBILE */
 @media (max-width: 768px) {
 
-    /* HOME & ABOUT */
     .container-footer-home p {
         font-size: 14px;
         line-height: 1.6;
-        text-indent: 0;
     }
 
     .judul-cerpen {
         font-size: 15px;
     }
 
-    /* CERPEN */
     .container-footer p {
         font-size: 15px;
         line-height: 1.7;
