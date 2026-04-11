@@ -206,8 +206,18 @@ p {
         padding: 20px;
     }
 
+    .card-flex {
+        display: flex;
+        gap: 12px;
+    }
+
     .img-card {
-        width: 130px;
+        width: 100px;
+        flex-shrink: 0;
+    }
+
+    .card-text {
+        flex: 1;
     }
 
     p {
@@ -218,4 +228,6 @@ p {
     .judul-cerpen {
         font-size: 20px;
     }
+
+}
 }
