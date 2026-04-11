@@ -174,29 +174,18 @@ p {
 
 @media (max-width: 768px) {
 
-    /* HOME & ABOUT (KECIL) */
-    .container-footer-home p {
-        font-size: 14px;
-        line-height: 1.6;
-        text-indent: 0;
+    .container-navbar {
+        height: 70px;
     }
 
-    .judul-cerpen {
-        font-size: 15px;
+    .ul-navbar {
+        height: 70px;
     }
 
-    /* CERPEN (BESAR) */
-    .container-footer p {
-        font-size: 21px;
-        line-height: 2.3;
-        text-indent: 30px;
+    .li-navbar {
+        padding: 8px 12px;
+        font-size: 12px;
     }
-
-    .h1-footer {
-        font-size: 24px;
-    }
-
-}
 
 /* KHUSUS ISI CERPEN */
 .container-footer p {
