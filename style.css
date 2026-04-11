@@ -149,3 +149,56 @@ body {
         font-size: 16px;
     }
 }
+
+/* ================= PERBAIKAN HOME ================= */
+
+/* biar semua card rata atas (judul sejajar) */
+.card-flex {
+    display: flex;
+    align-items: flex-start; /* ini penting banget */
+    gap: 16px;
+}
+
+/* samain tinggi gambar */
+.img-card {
+    width: 120px;
+    height: 90px;
+    object-fit: cover; /* biar ga gepeng */
+    border-radius: 8px;
+}
+
+/* biar teks konsisten */
+.card-text {
+    flex: 1;
+}
+
+/* rapihin judul */
+.card-text h2 {
+    margin: 0;
+    line-height: 1.3;
+}
+
+/* ================= MOBILE FIX ================= */
+@media (max-width: 768px) {
+
+    /* kecilin semua isi card */
+    .card-text p {
+        font-size: 14.5px;
+        line-height: 1.6;
+    }
+
+    .judul-cerpen {
+        font-size: 16px;
+    }
+
+    /* kecilin sedikit card */
+    .container-footer-home {
+        padding: 16px;
+    }
+
+    /* gambar lebih kecil biar sejajar rapi */
+    .img-card {
+        width: 95px;
+        height: 75px;
+    }
+}
