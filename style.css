@@ -165,9 +165,9 @@ p {
 .container-content-home {
     background-color: transparent;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 30px;
+    flex-direction: column;
 }
 
 .container-footer-home {
