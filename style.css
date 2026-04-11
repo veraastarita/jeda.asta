@@ -88,7 +88,7 @@ body {
     font-size: 14px;
 }
 
-/* DEFAULT TEXT (HOME & ABOUT) */
+/* DEFAULT (HOME & ABOUT) */
 p {
     text-indent: 0;
     text-align: justify;
@@ -172,25 +172,20 @@ p {
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
 
-    /* HOME & ABOUT → kecil */
-    p {
+    /* HOME & ABOUT (KECIL) */
+    .container-footer-home p {
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.6;
         text-indent: 0;
-    }
-
-    .card-text p {
-        font-size: 14px;
     }
 
     .judul-cerpen {
         font-size: 15px;
     }
 
-    /* CERITA → BESAR */
+    /* CERPEN (BESAR) */
     .container-footer p {
         font-size: 21px;
         line-height: 2.3;
@@ -201,4 +196,11 @@ p {
         font-size: 24px;
     }
 
+}
+
+/* KHUSUS ISI CERPEN */
+.container-footer p {
+    font-size: 19px;
+    line-height: 2;
+    text-indent: 40px;
 }
