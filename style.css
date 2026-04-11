@@ -100,9 +100,9 @@ p {
 
 /* KHUSUS ISI CERPEN (DESKTOP) */
 .container-footer p {
-    font-size: 17px;
-    line-height: 1.9;
-    text-indent: 40px;
+    font-size: 15.5px;
+    line-height: 1.8;
+    text-indent: 32px;
 }
 
 /* DIALOG */
@@ -172,9 +172,9 @@ p {
     box-shadow: 0 3px 8px rgba(0,0,0,0.04);
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
 
-    /* NAVBAR */
     .container-navbar {
         height: 60px;
     }
@@ -188,16 +188,15 @@ p {
         font-size: 12px;
     }
 
-    /* JUDUL CERPEN */
     .h1-footer {
         font-size: 22px;
     }
 
-    /* ISI CERPEN (NORMAL HP) */
+    /* ISI CERPEN (HP NORMAL BANGET) */
     .container-footer p {
-        font-size: 16px;
-        line-height: 1.8;
-        text-indent: 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+        text-indent: 20px;
     }
 
 }
