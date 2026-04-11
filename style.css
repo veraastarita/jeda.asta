@@ -194,7 +194,7 @@ p {
 @media (max-width: 768px) {
 
     body {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     /* NAVBAR */
@@ -207,8 +207,8 @@ p {
     }
 
     .li-navbar {
-        padding: 10px 14px;
-        font-size: 13px;
+        padding: 8px 12px;
+        font-size: 12px;
     }
 
     /* COVER */
@@ -225,47 +225,40 @@ p {
     .container-footer-home {
         max-width: 92%;
         margin: 20px auto;
-        padding: 15px;
+        padding: 14px;
     }
 
     .card-flex {
-        gap: 10px;
+        gap: 8px;
     }
 
     .img-card {
-        width: 90px;
+        width: 85px;
         flex-shrink: 0;
     }
 
-    /* TEXT UMUM (NAIK SEDIKIT BIAR GA KONTRAS) */
-    p {
-        font-size: 16.5px;
-        line-height: 1.9;
-        text-indent: 25px;
-    }
-
-    /* KHUSUS CARD */
+    /* 🔻 HOME (diperkecil) */
     .card-text p {
-        font-size: 16.5px;
+        font-size: 14px;
+        line-height: 1.7;
+        text-indent: 0;
     }
 
-    /* CERITA (TETAP LEBIH BESAR) */
+    .judul-cerpen {
+        font-size: 15px;
+    }
+
+    /* 🔺 CERITA (dibesarkan) */
     .container-footer p {
         font-size: 20px;
         line-height: 2.2;
-        text-indent: 28px;
-    }
-
-    /* JUDUL */
-    .judul-cerpen {
-        font-size: 16px;
+        text-indent: 30px;
     }
 
     .h1-footer {
-        font-size: 24px;
+        font-size: 25px;
     }
 
-    /* AUTHOR */
     .author {
         font-size: 13px;
     }
