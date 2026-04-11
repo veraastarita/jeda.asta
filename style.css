@@ -13,21 +13,21 @@ body {
     background-color: #e9e9e9;
     border-bottom: 1px solid #bfbfbf;
     width: 100%;
-    height: 60px;
+    height: 100px;
 }
 
 .ul-navbar {
     display: flex;
-    height: 60px;
+    height: 100px;
     justify-content: center;
     align-items: center;
 }
 
 .li-navbar {
     list-style-type: none;
-    padding: 6px 10px;
+    padding: 20px;
     margin: 5px;
-    font-size: 12px;
+    font-size: 15px;
     background-color: #ffffff;
     border: 1px solid #bfbfbf;
     border-radius: 8px;
@@ -82,7 +82,7 @@ body {
     font-size: 14px;
 }
 
-/* DEFAULT (HOME & ABOUT = NORMAL LAGI) */
+/* DEFAULT (HOME & ABOUT NORMAL) */
 p {
     text-indent: 0;
     text-align: justify;
@@ -92,11 +92,11 @@ p {
     color: #333;
 }
 
-/* KHUSUS CERPEN (DESKTOP) */
+/* KHUSUS CERPEN */
 .container-footer p {
     font-size: 16px;
     line-height: 1.8;
-    text-indent: 32px;
+    text-indent: 35px;
 }
 
 /* DIALOG */
@@ -141,25 +141,27 @@ p {
 }
 
 .judul-cerpen {
+    text-decoration: none;
     color: #2c5aa0;
     font-weight: bold;
     font-size: 18px;
-    text-decoration: none;
+}
+
+.judul-cerpen:hover {
+    text-decoration: underline;
+    color: #1d3f73;
 }
 
 /* HOME */
 .container-content-home {
-    background-color: transparent;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 30px;
+    flex-direction: column;
 }
 
 .container-footer-home {
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
     padding: 25px;
     max-width: 800px;
     margin: 30px auto;
@@ -168,18 +170,55 @@ p {
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-/* MOBILE */
+.tidak-menjorok {
+    text-indent: 0;
+}
+
+/* MOBILE FIX */
 @media (max-width: 768px) {
 
-    .h1-footer {
-        font-size: 22px;
+    /* NAVBAR lebih kecil */
+    .container-navbar {
+        height: 70px;
     }
 
-    /* CERPEN DI HP (NORMAL, GA GEDE BANGET) */
+    .ul-navbar {
+        height: 70px;
+    }
+
+    .li-navbar {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+
+    /* BOX */
+    .container-footer,
+    .container-footer-home {
+        max-width: 92%;
+        margin: 20px auto;
+        padding: 16px;
+    }
+
+    /* CARD */
+    .img-card {
+        width: 100px;
+    }
+
+    /* HOME & ABOUT (tetep normal, ga gede banget) */
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    /* CERPEN (lebih nyaman dibaca HP) */
     .container-footer p {
         font-size: 15px;
         line-height: 1.75;
-        text-indent: 20px;
+        text-indent: 22px;
+    }
+
+    .h1-footer {
+        font-size: 24px;
     }
 
 }
