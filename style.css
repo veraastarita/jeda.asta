@@ -182,24 +182,96 @@ p {
 
 /* MOBILE */
 @media (max-width: 768px) {
+    .container-navbar {
+        height: auto;
+        padding: 10px 0;
+    }
 
-    .container-footer-home p {
+    .ul-navbar {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .li-navbar {
+        padding: 10px 14px;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .container-content {
+        margin-top: 15px;
+        padding: 0 12px;
+    }
+
+    .img-content {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .container-footer,
+    .container-footer-home {
+        max-width: 95%;
+        padding: 16px;
+        margin: 20px auto;
+    }
+
+    .h1-footer {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+
+    p {
         font-size: 14px;
         line-height: 1.6;
+    }
+
+    .container-footer p {
+        font-size: 14px;
+        line-height: 1.6;
+        text-indent: 16px;
+    }
+
+    .dialog {
+        margin-left: 20px;
+    }
+
+    .card-flex {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .img-card {
+        width: 100%;
+        max-width: 220px;
     }
 
     .judul-cerpen {
         font-size: 15px;
     }
 
-    .container-footer p {
-        font-size: 15px;
-        line-height: 1.7;
-        text-indent: 20px;
+    .container-content-home {
+        margin-top: 20px;
+        padding: 12px;
     }
 
-    .h1-footer {
-        font-size: 22px;
+    .container-footer-home h1 {
+        font-size: 20px;
+        margin-bottom: 12px;
     }
 
+    .container-footer-home p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .kembali-bawah {
+        max-width: 95%;
+        padding: 0 12px;
+    }
 }
