@@ -159,9 +159,9 @@ p {
 /* HOME & ABOUT */
 .container-content-home {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 40px;
-    flex-direction: row;
+    flex-direction: columm;
     padding: 20px;
 }
 
