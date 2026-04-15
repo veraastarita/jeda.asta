@@ -190,74 +190,80 @@ img {
 }
 
 @media (max-width: 768px) {
+
+    /* NAVBAR */
     .container-navbar {
         height: auto;
-        padding: 10px 8px;
+        padding: 10px 0;
     }
 
     .ul-navbar {
+        flex-direction: column;
         height: auto;
-        flex-wrap: wrap;
-        gap: 8px;
-        padding: 0;
     }
 
     .li-navbar {
-        padding: 10px 12px;
-        margin: 0;
-        font-size: 13px;
-        white-space: nowrap;
-    }
-
-    .container-content-home {
-        margin-top: 18px;
-        padding: 12px;
-    }
-
-    .container-content-home h1 {
-        font-size: 24px;
-    }
-
-    .container-content-home p {
-        font-size: 14px;
-        line-height: 1.5;
+        width: 80%;
         text-align: center;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* CONTENT IMAGE */
+    .img-content {
+        width: 90%;
+    }
+
+    /* HOME & ABOUT */
+    .container-content-home {
+        margin-top: 20px;
+        padding: 10px;
     }
 
     .container-footer-home {
-        max-width: 100%;
-        width: 100%;
-        padding: 14px;
-        margin: 16px 0;
-    }
-
-    .card-flex {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .img-card {
-        width: 100%;
-        max-width: 100%;
-        border-radius: 8px;
-    }
-
-    .card-text {
-        min-width: 0;
-        width: 100%;
-    }
-
-    .judul-cerpen {
-        font-size: 15px;
-        line-height: 1.3;
+        padding: 15px;
+        margin: 20px;
     }
 
     .container-footer-home p {
         font-size: 14px;
-        line-height: 1.5;
-        text-align: left;
-        word-break: normal;
-        overflow-wrap: break-word;
-        text-indent: 0;
+        line-height: 1.6;
+    }
+
+    /* CERPEN */
+    .container-footer {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .container-footer p {
+        font-size: 14px;
+        line-height: 1.6;
+        text-indent: 20px;
+    }
+
+    .h1-footer {
+        font-size: 20px;
+    }
+
+    /* CARD */
+    .card-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-card {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .judul-cerpen {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* BUTTON */
+    .kembali-bawah {
+        justify-content: center;
     }
 }
