@@ -183,23 +183,27 @@ p {
 /* MOBILE */
 @media (max-width: 768px) {
 
-    /* NAVBAR */
-    .container-navbar {
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .ul-navbar {
+    .container-content-home {
         flex-direction: column;
-        height: auto;
+        padding: 15px;
     }
 
-    .li-navbar {
-        width: 80%;
-        text-align: center;
-        font-size: 14px;
-        padding: 10px;
+    .container-content-home > h1,
+    .container-content-home > p,
+    .container-footer-home {
+        width: 100%;
     }
+
+    .card-flex {
+        flex-direction: column; /* biar ga sempit di HP */
+        align-items: center;
+    }
+
+    .img-card {
+        width: 80%;
+    }
+
+}
 
     /* CONTENT IMAGE */
     .img-content {
@@ -259,3 +263,43 @@ p {
         justify-content: center;
     }
 }
+
+/* ===== HOME LAYOUT ===== */
+.container-content-home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* TEKS HOME (kiri) */
+.container-content-home > h1,
+.container-content-home > p {
+    width: 30%;
+}
+
+/* AREA KARYA (kanan) */
+.container-footer-home {
+    width: 65%;
+    margin: 10px 0;
+}
+
+/* ===== CARD: TULISAN KIRI, COVER KANAN ===== */
+.card-flex {
+    display: flex;
+    flex-direction: row-reverse; /* ini bikin gambar ke kanan */
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.img-card {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.card-text {
+    flex: 1;
+}
+
+
