@@ -54,9 +54,13 @@ body {
 }
 
 /* kiri (judul + deskripsi) */
-.container-content-home > h1,
+.container-content-home > h1 {
+    width: 30%;
+}
+
 .container-content-home > p {
     width: 30%;
+    margin-top: -10px;
 }
 
 /* kanan (card) */
@@ -156,10 +160,9 @@ p {
 }
 
 /* ===== CARD ===== */
-/* tulisan kiri, cover kanan */
 .card-flex {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /* cover kanan */
     align-items: flex-start;
     gap: 20px;
 }
@@ -214,12 +217,12 @@ p {
 
     .container-content-home > h1,
     .container-content-home > p {
-        width: 35%;
+        width: 40%;
         font-size: 14px;
     }
 
     .container-footer-home {
-        width: 60%;
+        width: 55%;
         padding: 15px;
     }
 
@@ -244,5 +247,8 @@ p {
     .h1-footer {
         font-size: 22px;
     }
-}
+
+    .kembali-bawah {
+        justify-content: center;
+    }
 }
