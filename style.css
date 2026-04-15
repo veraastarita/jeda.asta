@@ -198,14 +198,19 @@ img {
         height: auto;
     }
 
-    /* HOME & ABOUT */
+    /* HOME & ABOUT (BERDAMPINGAN) */
     .container-content-home {
         margin-top: 15px;
         padding: 10px;
         display: flex;
-        flex-direction: column; /* ini kunci biar ke bawah */
+        flex-direction: row; /* berdampingan */
+        justify-content: space-between;
         align-items: center;
-        text-align: center;
+        gap: 10px; /* jarak antar elemen */
+    }
+
+    .container-content-home > * {
+        width: 48%; /* biar muat kiri-kanan */
     }
 
     /* FOOTER HOME */
