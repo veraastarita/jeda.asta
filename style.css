@@ -159,7 +159,7 @@ p {
 /* HOME & ABOUT */
 .container-content-home {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 40px;
     flex-direction: row;
     padding: 20px;
