@@ -189,77 +189,75 @@ img {
     height: auto;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
     .container-navbar {
         height: auto;
-        padding: 10px 0;
+        padding: 10px 8px;
     }
 
     .ul-navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 10px;
         height: auto;
-        padding: 0 10px;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
     }
 
     .li-navbar {
-        padding: 10px 14px;
+        padding: 10px 12px;
         margin: 0;
         font-size: 13px;
-        width: auto;
+        white-space: nowrap;
     }
 
     .container-content-home {
+        margin-top: 18px;
         padding: 12px;
-        margin-top: 20px;
+    }
+
+    .container-content-home h1 {
+        font-size: 24px;
+    }
+
+    .container-content-home p {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
     }
 
     .container-footer-home {
-        max-width: 95%;
-        padding: 16px;
-        margin: 20px auto;
+        max-width: 100%;
+        width: 100%;
+        padding: 14px;
+        margin: 16px 0;
+    }
+
+    .card-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .img-card {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .card-text {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .judul-cerpen {
+        font-size: 15px;
+        line-height: 1.3;
     }
 
     .container-footer-home p {
         font-size: 14px;
-        line-height: 1.6;
-        text-align: justify;
+        line-height: 1.5;
+        text-align: left;
         word-break: normal;
         overflow-wrap: break-word;
-    }
-
-    .card-flex {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 12px;
-    }
-
-    .card-text {
-        flex: 1;
-        min-width: 0;
-    }
-
-    .img-card {
-        width: 90px;
-        flex-shrink: 0;
-    }
-
-    .judul-cerpen {
-        font-size: 14px;
-        line-height: 1.3;
-    }
-
-    .container-footer p {
-        font-size: 14px;
-        line-height: 1.6;
         text-indent: 0;
-        word-break: normal;
-        overflow-wrap: break-word;
     }
 }
