@@ -161,7 +161,7 @@ p {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    flex-direction: columm;
+    flex-direction: row;
     padding: 20px;
 }
 
