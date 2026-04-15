@@ -190,6 +190,10 @@ img {
     height: auto;
 }
 
+.h1-footer {
+    margin-bottom: 12px;
+}
+
 @media (max-width: 768px) {
 
     /* CONTENT IMAGE */
