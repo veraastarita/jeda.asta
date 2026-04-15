@@ -159,9 +159,9 @@ p {
 /* HOME & ABOUT */
 .container-content-home {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 40px;
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px;
 }
 
@@ -190,23 +190,6 @@ img {
 }
 
 @media (max-width: 768px) {
-
-    /* NAVBAR */
-    .container-navbar {
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .ul-navbar {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .li-navbar {
-        width: 80%;
-        font-size: 14px;
-        padding: 10px;
-    }
 
     /* CONTENT IMAGE */
     .img-content {
