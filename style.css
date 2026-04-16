@@ -194,6 +194,7 @@ p {
     .container-footer {
         margin: 20px 15px;
         padding: 20px;
+        max-width: 100%; 
     }
     
     .container-footer-home {
@@ -218,5 +219,6 @@ p {
 
     .img-content {
         width: 100%;
+        display: block;
     }
 }
