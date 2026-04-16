@@ -190,6 +190,11 @@ p {
         margin-top: 40px; 
         padding: 20px;
     }
+
+    .container-footer {
+        margin: 20px 15px;
+        padding: 20px;
+    }
     
     .container-footer-home {
         background-color: #ffffff;
@@ -207,7 +212,11 @@ p {
         line-height: 1.7;  
     }
 
+    .container-content {
+        padding: 0 15px;
+    }
+
     .img-content {
-        width: 85%;
+        width: 100%;
     }
 }
