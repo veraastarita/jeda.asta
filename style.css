@@ -181,7 +181,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    /* HOME & ABOUT 
+    /* HOME & ABOUT */
     .container-content-home {
     display: flex;
     align-items: center;
