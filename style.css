@@ -201,8 +201,8 @@ p {
     .container-footer-home {
         background-color: #ffffff;
         padding: 15px;   
-        max-width: 90%;
-        margin: 20px auto; 
+        max-width: 100%;
+        margin: 20px 15px; 
         border-radius: 8px;
         border: 1px solid #e5e5e5;
         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
