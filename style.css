@@ -181,81 +181,26 @@ p {
 }
 
 @media (max-width: 768px) {
-
-    /* NAVBAR */
-    .container-navbar {
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .ul-navbar {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .li-navbar {
-        width: 80%;
-        text-align: center;
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    /* CONTENT IMAGE */
-    .img-content {
-        width: 90%;
-    }
-
-    /* HOME & ABOUT */
+    /* HOME & ABOUT (samakan dengan desktop) */
     .container-content-home {
-        margin-top: 20px;
-        padding: 10px;
-    }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px; /* samakan */
+    padding: 20px;   /* samakan */
+}
 
-    .container-footer-home {
-        padding: 15px;
-        margin: 20px;
-    }
+.container-footer-home {
+    background-color: #ffffff;
+    padding: 25px;   /* samakan */
+    max-width: 800px;
+    margin: 30px auto; /* samakan */
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
 
-    .container-footer-home p {
-        font-size: 14px;
-        line-height: 1.6;
-    }
-
-    /* CERPEN */
-    .container-footer {
-        padding: 15px;
-        margin: 20px;
-    }
-
-    .container-footer p {
-        font-size: 14px;
-        line-height: 1.6;
-        text-indent: 20px;
-    }
-
-    .h1-footer {
-        font-size: 20px;
-    }
-
-    /* ===== CARD (FIX: tetap berdampingan) ===== */
-    .card-flex {
-        flex-direction: row-reverse; /* penting */
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .img-card {
-        width: 90px;
-        max-width: none;
-    }
-
-    .judul-cerpen {
-        font-size: 14px;
-        text-align: left;
-    }
-
-    /* BUTTON */
-    .kembali-bawah {
-        justify-content: center;
-    }
+.container-footer-home p {
+    font-size: 16px;   /* samakan */
+    line-height: 1.7;  /* samakan */
 }
