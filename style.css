@@ -192,7 +192,7 @@ p {
     }
 
     .container-footer {
-        margin: 20px;
+        margin: 15px;
         padding: 20px;
         max-width: 900%; 
         width: auto;
@@ -202,7 +202,7 @@ p {
         background-color: #ffffff;
         padding: 15px;   
         max-width: 100%;
-        margin: 20px 15px; 
+        margin: 15px; 
         border-radius: 8px;
         border: 1px solid #e5e5e5;
         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
