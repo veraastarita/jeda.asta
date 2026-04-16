@@ -220,7 +220,7 @@ p {
     }
 
     .img-content {
-        width: 90%;
+        width: calc(100% - 40px);
         display: block;
     }
 }
