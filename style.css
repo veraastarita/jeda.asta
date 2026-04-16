@@ -209,10 +209,14 @@ p {
     }
     
     .container-footer-home p {
-        font-size: 14px;   
-        line-height: 1.7;  
+        font-size: 19px;   
+        line-height: 1.7;
     }
 
+    .cerpen .container-footer p {
+    font-size: 14px;
+    }
+    
     .container-content {
         padding: 0 15px;
     }
