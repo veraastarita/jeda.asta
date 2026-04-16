@@ -222,4 +222,16 @@ p {
         width: calc(100% - 40px);
         display: block;
     }
+
+    .container-navbar {
+    height: 70px;
+    }
+    
+    .ul-navbar {
+    height: 70px;
+    }
+    
+    .li-navbar {
+    padding: 10px 15px;
+    font-size: 13px;
 }
