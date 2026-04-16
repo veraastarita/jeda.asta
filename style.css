@@ -181,28 +181,28 @@ p {
 }
 
 @media (max-width: 768px) {
-    /* HOME & ABOUT (samakan dengan desktop) */
+    /* HOME & ABOUT 
     .container-content-home {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px; /* samakan */
-    padding: 20px;   /* samakan */
+    margin-top: 40px; 
+    padding: 20px;
     }
     
     .container-footer-home {
     background-color: #ffffff;
-    padding: 15px;   /* samakan */
+    padding: 15px;   
     max-width: 800px;
-    margin: 20px auto; /* samakan */
+    margin: 20px auto; 
     border-radius: 8px;
     border: 1px solid #e5e5e5;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
     
     .container-footer-home p {
-    font-size: 14px;   /* samakan */
-    line-height: 1.7;  /* samakan */
+    font-size: 14px;   
+    line-height: 1.7;  
     }
     
     .container-footer-home { width: 95%; }
