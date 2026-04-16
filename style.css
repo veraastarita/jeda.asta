@@ -217,6 +217,10 @@ p {
     .container-content {
         padding: 0;
     }
+    
+    .kembali-bawah {
+    margin: 10px 15px 40px 15px;
+    }
 
     .img-content {
         width: calc(100% - 40px);
