@@ -98,7 +98,7 @@ p {
 }
 
 /* CERPEN TEXT */
-.cerpen .container-footer p {
+.container-footer p {
     font-size: 15px;
     line-height: 1.8;
     text-indent: 30px;
@@ -213,10 +213,6 @@ p {
     .container-footer-home p {
         font-size: 14px;   
         line-height: 1.5;
-    }
-
-    .cerpen .container-footer p {
-    font-size: 14px;
     }
     
     .container-content {
