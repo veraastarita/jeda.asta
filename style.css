@@ -180,6 +180,42 @@ p {
     margin-bottom: 20px;
 }
 
+/* SKILL TAGS */
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.tag {
+    background: #f1efe8;
+    border: 1px solid #d3d1c7;
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-size: 13px;
+    color: #5f5e5a;
+}
+
+/* WORKS LIST */
+.works-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.works-list li {
+    font-size: 15px;
+}
+.work-sub {
+    color: #aaa;
+    font-size: 13px;
+}
+
+/* PROFILE INFO */
+.profile-info h1 {
+    margin: 0 0 4px 0;
+}
+
 @media (max-width: 768px) {
 
     /* HOME & ABOUT */
