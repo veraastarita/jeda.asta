@@ -281,17 +281,16 @@ p {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+
     .profile-flex {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
     .bio-label {
         width: 110px;
     }
-}
-
-@media (max-width: 768px) {}
 
     /* HOME & ABOUT */
     .container-content-home {
@@ -305,7 +304,7 @@ p {
     .container-footer {
         margin: 20px 15px;
         padding: 20px;
-        max-width: 900%; 
+        max-width: 100%; 
         width: auto;
     }
     
@@ -330,10 +329,21 @@ p {
     }
     
     .kembali-bawah {
-    margin: 10px 15px 40px 15px;
+        margin: 10px 15px 40px 15px;
     }
 
     .img-content {
         width: calc(100% - 40px);
         display: block;
     }
+
+    /* TAMBAHAN biar card tetap rapi kayak lama */
+    .card-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .img-card {
+        width: 100%;
+    }
+}
