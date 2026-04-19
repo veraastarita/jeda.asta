@@ -1,71 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
     <title>jeda.asta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
 
 <!-- NAVBAR -->
-<div class="container-navbar">
-    <ul class="ul-navbar">
-        <li class="li-navbar">
-            <a href="index.html" class="a-navbar">HOME</a>
-        </li>
-        <li class="li-navbar">
-            <a href="karya.html" class="a-navbar">KARYA</a>
-        </li>
+<nav class="navbar">
+    <a href="index.html" class="navbar-brand">jeda.asta</a>
+
+    <ul class="navbar-links">
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="karya.html">Karya</a></li>
     </ul>
-</div>
+</nav>
 
-<!-- CONTENT -->
-<div class="container-content-home">
+<!-- HERO -->
+<section class="hero">
+    <p class="hero-label">Portofolio</p>
 
-    <!-- PROFIL -->
-    <div class="container-footer-home">
-        <div class="profile-flex">
-            <img src="foto.jpeg" class="img-profil" alt="Foto Profil">
-            <div class="profile-info">
-                <h1>Ully Vera Astarita</h1>
-                <p class="role-text">Penulis · Sastra · Fiksi Pendek</p>
-                <p class="tidak-menjorok">Ketertarikan pada fiksi pendek maupun eksplorasi bahasa sehari-hari dalam karya sastra.</p>
-            </div>
-        </div>
+    <h1 class="hero-title">jeda.<em>asta</em></h1>
+
+    <p class="hero-sub">
+        Ruang kecil untuk kata-kata yang tumbuh dari jeda,
+        rasa, dan hal-hal yang serumit itu diucapkan langsung.
+    </p>
+
+    <div class="hero-actions">
+        <a href="profil.html" class="btn btn-dark">Lihat Profil</a>
+        <a href="karya.html" class="btn btn-ghost">Baca Karya</a>
     </div>
 
-    <!-- BIODATA -->
-    <div class="container-footer-home">
-        <h2 class="section-title">Biodata</h2>
-        <table class="biodata-table">
-            <tr><td class="bio-label">Nama lengkap</td><td>Ully Vera Astarita</td></tr>
-            <tr><td class="bio-label">Domisili</td><td>Indonesia</td></tr>
-            <tr><td class="bio-label">Email</td><td>ullyvera245@gmail.com</td></tr>
-            <tr><td class="bio-label">Instagram</td><td>astarita0.0</td></tr>
-        </table>
-    </div>
+    <a href="profil.html" class="scroll-hint">
+        <div class="scroll-line"></div>
+    </a>
+</section>
 
-    <!-- BIDANG KEAHLIAN -->
-    <div class="container-footer-home">
-        <h2 class="section-title">Bidang Keahlian</h2>
-        <div class="skill-tags">
-            <span class="tag">Cerpen</span>
-            <span class="tag">Flash Fiction</span>
-            <span class="tag">Penyuntingan</span>
-            <span class="tag">Penulisan Kreatif</span>
-        </div>
-    </div>
-
-    <!-- KARYA PILIHAN -->
-    <div class="container-footer-home">
-        <h2 class="section-title">Karya Pilihan</h2>
-        <ul class="works-list">
-            <li><a href="cerpen1.html" class="judul-cerpen">Penjepit Buah Jeruk</a><span class="work-sub"> — Cerpen, 2026</span></li>
-            <li><a href="cerpen2.html" class="judul-cerpen">Cedera Cendera Mata</a><span class="work-sub"> — Cerpen, 2025</span></li>
-            <li><a href="cerpen3.html" class="judul-cerpen">Menjamah Bayangannya pada Ruang Visual</a><span class="work-sub"> — Cerpen, 2025</span></li>
-        </ul>
-    </div>
-
-</div>
 </body>
 </html>
