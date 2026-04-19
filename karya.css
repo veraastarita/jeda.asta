@@ -266,15 +266,16 @@ p {
     }
 
     .h1-footer {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .container-footer,
     .container-footer-home {
-        margin: 20px 14px;
+        margin: 18px 14px;
     }
 
     .kembali-bawah{
         margin: 10px 14px 40px 14px;
+        padding-right: 6px;
     }
 }
