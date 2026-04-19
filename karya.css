@@ -227,25 +227,38 @@ p {
         gap:18px;
     }
     
-    .container-footer-home p {
+    .container-footer-home > p {
         font-size: 14px;
         line-height: 1.6;
         text-indent: 0;
-    }
-
-    .judul-cerpen {
-        font-size: 14px;
-        line-height: 1.3;
-        margin-bottom: 4px;
     }
 
      .img-content {
         max-width: 80%;
     }
 
+    .card-text h2{
+    margin: 0;
+    line-height: 1.3;
+    }
+
+    .card-text p{
+    margin-top: 4px;
+    margin-bottom: 0;
+    line-height: 1.4;
+    }
+
+    .card-text{
+    gap: 4px;
+    }
+    
     .card-flex{
         flex-direction: column;
         gap: 12px;
+    }
+
+    .card-text{
+    gap: 4px;
     }
 
     .img-card{
@@ -258,7 +271,7 @@ p {
     }
 
     .container-footer p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.7;
         text-indent: 14px;
     }
