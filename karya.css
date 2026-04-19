@@ -241,6 +241,16 @@ p {
         max-width: 80%;
     }
 
+    .card-flex{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .img-card{
+        width: 100%;
+        max-width: 200px;
+    }
+
     .container-footer {
         padding: 18px;
     }
