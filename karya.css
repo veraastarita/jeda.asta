@@ -234,7 +234,7 @@ p {
     }
 
     .judul-cerpen {
-        font-size: 15px;
+        font-size: 14px;
     }
 
      .img-content {
@@ -256,9 +256,9 @@ p {
     }
 
     .container-footer p {
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.7;
-        text-indent: 18px;
+        text-indent: 14px;
     }
 
      .container-content{
