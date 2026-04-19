@@ -1,0 +1,257 @@
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --cream:#ffffff;
+    --ink:#333333;
+    --ink-light:#555555;
+    --ink-muted:#777777;
+    --accent:#666666;
+    --accent-light:#bfbfbf;
+    --border:#d9d9d9;
+    --border-soft:#e5e5e5;
+}
+
+body{
+    overflow-x: hidden;
+    background-color:#ffffff;
+    font-family:'Times New Roman', serif;
+    margin:0;
+    padding:0;
+}
+
+/* NAVBAR */
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.08);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--border-soft);
+}
+
+.navbar-brand{
+    text-decoration:none;
+    font-family:'Playfair Display', serif;
+    font-size:18px;
+    font-style:italic;
+    color:var(--ink);
+}
+
+.navbar-links{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.navbar-links a{
+    text-decoration:none;
+    color:var(--ink-muted);
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+
+    font-family:'DM Sans', sans-serif;
+    font-weight:400;
+}
+
+.navbar-links a:hover{
+    color:var(--ink);
+}
+
+.navbar{
+    box-sizing:border-box;
+}
+
+/* isi halaman turun dari navbar */
+.main,
+.container-content-home{
+    padding-top:120px;
+}
+
+/* CONTENT */
+.container-content {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container-content-home{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    padding:120px 20px 20px;
+}
+
+.img-content {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* KOTAK CERPEN */
+.container-footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* JUDUL */
+.h1-footer {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+/* AUTHOR */
+.author {
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+    color: #777;
+    font-size: 14px;
+}
+
+/* DEFAULT */
+p {
+    text-indent: 0;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #333;
+}
+
+/* KHUSUS ISI CERPEN */
+.container-footer p {
+    font-size: 19px;
+    line-height: 1.8;
+    text-indent: 24px;
+}
+
+/* DIALOG */
+.dialog {
+    text-indent: 0;
+    margin-left: 40px;
+}
+
+/* BUTTON */
+.kembali-bawah {
+    max-width: 800px;
+    margin: 10px auto 40px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kembali-bawah a {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+}
+
+.kembali-bawah a:hover{
+    background:#e8e8e8;
+}
+
+/* CARD KARYA */
+.card-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.img-card {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.judul-cerpen {
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.judul-cerpen:hover{
+    color:#333333;
+}
+
+.container-footer-home {
+    background-color: #ffffff;
+    padding: 25px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 640px) {
+
+    .navbar{
+        padding:16px 20px;
+    }
+
+    .navbar-links{
+        gap:18px;
+    }
+    
+    .container-footer-home p {
+        font-size: 14px;
+        line-height: 1.6;
+        text-indent: 0;
+    }
+
+    .judul-cerpen {
+        font-size: 15px;
+    }
+
+     .img-content {
+        max-width: 80%;
+    }
+
+    .container-footer {
+        padding: 18px;
+    }
+
+    .container-footer p {
+        font-size: 16px;
+        line-height: 1.7;
+        text-indent: 18px;
+    }
+
+    .h1-footer {
+        font-size: 22px;
+    }
+}
