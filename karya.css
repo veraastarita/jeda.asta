@@ -254,15 +254,13 @@ p {
 
     .card-text{
     gap: 4px;
+    font-size: 14px;
+    line-height: 1.2;
     }
     
     .card-flex{
         flex-direction: column;
         gap: 12px;
-    }
-
-    .card-text{
-    gap: 4px;
     }
 
     .img-card{
