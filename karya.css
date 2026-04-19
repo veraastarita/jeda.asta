@@ -218,7 +218,7 @@ p {
 
 /* RESPONSIVE */
 @media (max-width: 640px) {
-
+    
     .navbar{
         padding:16px 20px;
     }
@@ -251,7 +251,16 @@ p {
         text-indent: 18px;
     }
 
+     .container-content{
+        padding: 0 14px;
+    }
+
     .h1-footer {
         font-size: 22px;
+    }
+
+    .container-footer,
+    .container-footer-home {
+        margin: 20px 14px;
     }
 }
