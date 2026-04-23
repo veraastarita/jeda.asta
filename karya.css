@@ -105,7 +105,7 @@ body{
 .container-content-home h1 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    color: var(--accent);
+    color: var(--ink);
     font-weight: 400;
     letter-spacing: -0.3px;
     font-size: 48px;
