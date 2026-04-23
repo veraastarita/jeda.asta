@@ -152,6 +152,14 @@ body{
     color: inherit;
 }
 
+.navbar-brand .jeda {
+    font-style: italic;
+}
+
+.hero-title .jeda {
+    font-style: italic;
+}
+
  @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
