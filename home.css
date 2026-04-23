@@ -45,6 +45,11 @@ body{
     letter-spacing: -0.3px;
 }
 
+.navbar-brand em {
+    font-style: italic;
+    color: var(--accent);
+}
+
 .navbar-links{
     display:flex;
     gap:30px;
