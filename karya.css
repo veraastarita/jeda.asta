@@ -45,7 +45,7 @@ body{
     font-size:18px;
     font-style:normal;
     color:var(--ink);
-    letter-spacing: -0.3px;letter-spacing: -0.3px;
+    letter-spacing: -0.3px;
 }
 
 .navbar-brand em {
@@ -104,6 +104,8 @@ body{
 
 .container-content-home h1 {
     font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: var(--accent);
     font-weight: 400;
     letter-spacing: -0.3px;
     font-size: 48px;
