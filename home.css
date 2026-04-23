@@ -100,7 +100,7 @@ body{
 }
 
 .hero-title em{
-    color: inherit;
+    color: var(--accent);
 }
 
 .hero-sub{
