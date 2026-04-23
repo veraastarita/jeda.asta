@@ -283,6 +283,12 @@ body{
     color:var(--ink-muted);
 }
 
+.container-content-home h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
 .jeda {
     font-style: italic;
     color: inherit;
