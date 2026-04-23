@@ -96,6 +96,13 @@ body{
     padding:120px 20px 20px;
 }
 
+.container-content-home h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    font-size: 48px;
+}
+
 .img-content {
     width: 100%;
     max-width: 420px;
