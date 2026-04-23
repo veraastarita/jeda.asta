@@ -217,7 +217,7 @@ p {
 
 .jeda {
     font-style: italic;
-    color: var(--ink-muted);
+    color: inherit;
     font-weight: normal;
     letter-spacing: normal;
 }
