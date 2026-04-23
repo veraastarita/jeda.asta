@@ -95,7 +95,7 @@ body{
 }
 
 .hero-title em{
-    color:var(--accent);
+    color: inherit;
 }
 
 .hero-sub{
@@ -145,6 +145,11 @@ body{
     height:40px;
     background:linear-gradient(to bottom,var(--accent-light),transparent);
     animation: scrollPulse 2s ease-in-out infinite;
+}
+
+.jeda {
+    font-style: italic;
+    color: inherit;
 }
 
  @keyframes fadeUp {
