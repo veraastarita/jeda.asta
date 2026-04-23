@@ -104,11 +104,16 @@ body{
 
 .container-content-home h1 {
     font-family: 'Playfair Display', serif;
-    font-style: italic;
+    font-style: normal;
     color: var(--ink);
     font-weight: 400;
     letter-spacing: -0.3px;
     font-size: 48px;
+}
+
+.container-content-home h1 em {
+    font-style: italic;
+    color: var(--accent);
 }
 
 .img-content {
