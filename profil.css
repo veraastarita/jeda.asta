@@ -42,6 +42,12 @@ body{
     font-size:18px;
     font-style: normal;
     color:var(--ink);
+    letter-spacing: -0.3px;
+}
+
+.navbar-brand em {
+    font-style: italic;
+    color: var(--accent);
 }
 
 .navbar-links{
