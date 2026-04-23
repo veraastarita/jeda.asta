@@ -283,6 +283,11 @@ body{
     color:var(--ink-muted);
 }
 
+.jeda {
+    font-style: italic;
+    color: inherit;
+}
+
 /* MOBILE */
 @media(max-width:640px){
     .navbar{
