@@ -3,10 +3,8 @@
 <head>
     <title>Karya - jeda.asta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="karya.css" />
 </head>
 <body>
@@ -20,40 +18,52 @@
     </ul>
 </nav>
 
-<!-- CONTENT -->
-<div class="container-content-home">
-    <h1><em>jeda</em>.asta</h1>
-    <p>Kumpulan karya tulis oleh Ully Vera Astarita</p>
+<!-- HEADER HALAMAN -->
+<div class="karya-header">
+    <h1 class="karya-title"><em>jeda</em>.asta</h1>
+    <p class="karya-sub">Kumpulan karya tulis oleh Ully Vera Astarita</p>
+    <div class="karya-divider"></div>
+</div>
 
-    <div class="container-footer-home">
-        <div class="card-flex">
-            <img src="jeruk.jpg" class="img-card" alt="Penjepit Buah Jeruk">
-            <div class="card-text">
-                <h2><a href="cerpen1.html" class="judul-cerpen">Penjepit Buah Jeruk</a></h2>
-                <p>Aku memujinya, "Ada tonjolan di balik celana dalam milikmu." Tawanya pecah...</p>
-            </div>
-        </div>
-    </div>
+<!-- DAFTAR KARYA -->
+<div class="karya-list">
 
-    <div class="container-footer-home">
-        <div class="card-flex">
-            <img src="bunga.jpg" class="img-card" alt="Cedera Cendera Mata">
-            <div class="card-text">
-                <h2><a href="cerpen2.html" class="judul-cerpen">Cedera Cendera Mata</a></h2>
-                <p>"Kuburanmu." Pernyataannya memunculkan seringai di wajah suaminya...</p>
-            </div>
+    <a href="cerpen1.html" class="karya-item">
+        <div class="karya-img-wrap">
+            <img src="jeruk.jpg" alt="Penjepit Buah Jeruk" class="karya-img">
         </div>
-    </div>
+        <div class="karya-info">
+            <span class="karya-meta">Cerpen · 2026</span>
+            <h2 class="karya-judul">Penjepit Buah Jeruk</h2>
+            <p class="karya-cuplikan">Aku memujinya, "Ada tonjolan di balik celana dalam milikmu." Tawanya pecah...</p>
+            <span class="karya-arrow">Baca →</span>
+        </div>
+    </a>
 
-    <div class="container-footer-home">
-        <div class="card-flex">
-            <img src="asixx.jpg" class="img-card" alt="Menjamah Bayangannya pada Ruang Visual">
-            <div class="card-text">
-                <h2><a href="cerpen3.html" class="judul-cerpen">Menjamah Bayangannya pada Ruang Visual</a></h2>
-                <p>"Menurutmu, orang yang bisa langsung tertawa setelah melihat tingkah babi itu..."</p>
-            </div>
+    <a href="cerpen2.html" class="karya-item">
+        <div class="karya-img-wrap">
+            <img src="bunga.jpg" alt="Cedera Cendera Mata" class="karya-img">
         </div>
-    </div>
+        <div class="karya-info">
+            <span class="karya-meta">Cerpen · 2025</span>
+            <h2 class="karya-judul">Cedera Cendera Mata</h2>
+            <p class="karya-cuplikan">"Kuburanmu." Pernyataannya memunculkan seringai di wajah suaminya...</p>
+            <span class="karya-arrow">Baca →</span>
+        </div>
+    </a>
+
+    <a href="cerpen3.html" class="karya-item">
+        <div class="karya-img-wrap">
+            <img src="asixx.jpg" alt="Menjamah Bayangannya pada Ruang Visual" class="karya-img">
+        </div>
+        <div class="karya-info">
+            <span class="karya-meta">Cerpen · 2025</span>
+            <h2 class="karya-judul">Menjamah Bayangannya pada Ruang Visual</h2>
+            <p class="karya-cuplikan">"Menurutmu, orang yang bisa langsung tertawa setelah melihat tingkah babi itu..."</p>
+            <span class="karya-arrow">Baca →</span>
+        </div>
+    </a>
+
 </div>
 
 </body>
