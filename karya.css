@@ -375,40 +375,6 @@ p {
     transform: translateX(0);
 }
 
-/* MOBILE */
-@media (max-width: 640px) {
-    .karya-header {
-        padding-top: 110px;
-        margin-bottom: 30px;
-    }
-
-    .karya-title {
-        font-size: 28px;
-    }
-
-    .karya-list {
-        padding: 0 14px;
-    }
-
-    .karya-item {
-        gap: 16px;
-        padding: 22px 0;
-    }
-
-    .karya-img-wrap {
-        width: 80px;
-        height: 80px;
-    }
-
-    .karya-judul {
-        font-size: 17px;
-    }
-
-    .karya-cuplikan {
-        font-size: 12px;
-    }
-}
-
 
 /* RESPONSIVE */
 @media (max-width: 640px) {
@@ -492,4 +458,38 @@ p {
         margin: 10px 14px 40px 14px;
         padding-right: 6px;
     }
+
+    .karya-header {
+        padding-top: 110px;
+        margin-bottom: 30px;
+    }
+
+    .karya-title {
+        font-size: 28px;
+    }
+
+    .karya-list {
+        padding: 0 14px;
+    }
+
+    .karya-item {
+        gap: 16px;
+        padding: 22px 0;
+    }
+
+    .karya-img-wrap {
+        width: 80px;
+        height: 80px;
+    }
+
+    .karya-judul {
+        font-size: 17px;
+    }
+
+    .karya-cuplikan {
+        font-size: 12px;
+    }
+}
+
+
 }
