@@ -141,7 +141,9 @@ body{
 .h1-footer {
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 26px;
+    color: #666666;
+    
 }
 
 /* AUTHOR */
@@ -270,6 +272,10 @@ a.card-link.container-footer-home {
 
 a.card-link.container-footer-home:hover {
     box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+a.card-link.container-footer-home h2 {
+    color: #666666;
 }
 
 /* RESPONSIVE */
