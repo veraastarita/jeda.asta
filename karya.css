@@ -254,6 +254,24 @@ p {
     transition: box-shadow 0.2s ease;
 }
 
+a.card-link.container-footer-home {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s ease;
+}
+
+a.card-link.container-footer-home:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
 /* RESPONSIVE */
 @media (max-width: 640px) {
     
